@@ -2,6 +2,29 @@
 <html>
 <head>
 	<title>介绍</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <script type="text/javascript">
+        //禁止右键
+        document.oncontextmenu = function(){
+          return false;
+        }
+        
+        //禁止F12调试
+        document.onkeydown = function(e) {
+          if (e.keyCode == 123) {
+            return false;
+          }
+        }
+        
+        //禁止文本选中和放大缩小
+        document.onkeydown = document.onkeyup = document.onselectstart = document.oncontextmenu = function(){
+          return false;
+        }
+        document.body.oncopy = document.body.oncut = function(){
+          return false;
+        }
+      </script>
+      
 	<style type="text/css">
           /* 修改链接颜色 */
 a {
