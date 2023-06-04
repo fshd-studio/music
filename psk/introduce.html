@@ -24,6 +24,25 @@
           return false;
         }
       </script>
+      <script type="text/javascript">
+        document.onkeydown = function () {
+          if (event.ctrlKey == true &&
+             (event.keyCode == 107 || event.keyCode == 109 || event.keyCode == 187 || event.keyCode == 189 ))
+          {
+            return false;
+          }
+        }
+        document.onmousewheel = function(){
+          if(event.ctrlKey == true){
+            return false;
+          }
+        }
+        document.addEventListener('DOMMouseScroll', function (event) {
+          if (event.ctrlKey == true) {
+            event.preventDefault();
+          }
+        }, false);
+      </script>
       
 	<style type="text/css">
           /* 修改链接颜色 */
