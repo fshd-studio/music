@@ -1,0 +1,34 @@
+{
+    "xAxis": {
+      "type": "category",
+      "data": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "id": "u:deaa17d8793e"
+    },
+    "yAxis": {
+      "type": "value",
+      "id": "u:a764cab2d6cc"
+    },
+    "series": [
+      {
+        "data": [
+          1,
+          3932,
+          234,
+          5234,
+          654,
+          5643,
+          1320
+        ],
+        "type": "line",
+        "id": "u:cdae09580c2d"
+      }
+    ]
+  }
